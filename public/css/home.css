@@ -1,0 +1,155 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #686D76;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+    text-align: justify;
+}
+
+.content-title{
+    background-color: #373A40ed;
+    padding: 20px;
+    height: 100vh;
+}
+
+.nav-bar{
+    background-color: #373A40;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li{
+    color: white;
+    padding: 20px 20px;
+}
+
+.nav-bar li a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-bar .menu{
+    display: flex;
+    font-size: 20px;
+}
+
+.nav-bar li.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content{
+    background-color: #686D76;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    color: white;
+    padding: 0 50px;
+}
+
+.socials li{
+    list-style: none;
+    font-size: 35px;
+    margin: 15px 15px;
+}
+
+.socials li:first-child {
+    margin-left: 0;
+}
+
+.text{
+    margin: 0;
+}
+
+.content .socials{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.content .image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    /* border-radius: 10px; */
+}
+
+.content .text h1{
+    font-size: 6em;
+    margin: 0;
+    padding: 0;
+}
+
+.content .text h3{
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.content-title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    padding: 60px 0;
+    height: 100vh;
+}
+
+
+.footer {
+    background-color: #00246B ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+
+.image {
+    position: relative;
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: inline-block;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+}
+
+.image img {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
+}
+
